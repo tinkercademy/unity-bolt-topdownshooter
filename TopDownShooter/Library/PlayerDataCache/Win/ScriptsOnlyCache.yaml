@@ -2,8 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CFX_AutoDestructShuriken
-    Bolt.Core.Editor.dll:
-    - Bolt.VariablesWindow
     Bolt.Core.Runtime.dll:
     - Bolt.SceneVariables
     - Bolt.Variables
@@ -22,18 +20,13 @@ ScriptsOnlyBuild:
     Ludiq.Core.Runtime.dll:
     - Ludiq.DictionaryAsset
     Ludiq.Graphs.Editor.dll:
-    - Ludiq.GraphInspectorWindow
     - Ludiq.GraphWindow
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
-    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
-    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.RenderPipelines.Core.Runtime.dll:
@@ -73,12 +66,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -221,11 +208,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16970}
     - Class: 114
-      Script: {instanceID: 28928}
+      Script: {instanceID: 49344}
     - Class: 114
-      Script: {instanceID: 28932}
+      Script: {instanceID: 49348}
     - Class: 114
-      Script: {instanceID: 28944}
+      Script: {instanceID: 49360}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1764,5 +1751,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Mainmenu.unity
   - Assets/Scenes/Scene1.unity
-  playerPath: C:/Users/tshen/OneDrive/Desktop/StudentGame_TopDownShooter/top down
-    shooter/Game/top down shooter.exe
+  playerPath: C:/Users/tshen/OneDrive/Desktop/GitPushPurposes/TopDownShooterGame_UnityBolt/TopDownShooter/Game/top
+    down shooter.exe
