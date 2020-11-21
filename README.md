@@ -10,7 +10,9 @@ Down key- S key
 
 Right- D key
 
-Attack- left mmouse click
+Attack- left mouse click
+
+Swap weapon- P key
 
 Interact with Npc - I Key
 
